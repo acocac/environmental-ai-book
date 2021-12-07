@@ -1,0 +1,94 @@
+format: jb-book
+root: welcome
+parts:
+- caption: Preamble
+  chapters:
+  - file: preamble/about
+  - file: preamble/who-for
+  - file: preamble/how-to
+  - file: preamble/attribution
+- caption: Environments
+  chapters:
+  - file: forest/forest-overview
+    title: Forest
+    sections:
+    - file: forest/forest-sensors
+      title: Sensors
+    - file: forest/forest-modelling
+      title: Modelling
+      sections:
+      - file: forest/modelling/forest-modelling-treecrown_deepforest
+        title: Tree crown (DeepForest)
+      - file: forest/modelling/forest-modelling-treecrown_detectree
+        title: Tree crown (Detectree)
+  - file: ocean/ocean-overview
+    title: Ocean
+    sections:
+    - file: ocean/ocean-sensors
+      title: Sensors
+    - file: ocean/ocean-modelling
+      title: Modelling
+  - file: polar/polar-overview
+    title: Polar
+    sections:
+    - file: polar/polar-sensors
+      title: Sensors
+    - file: polar/polar-modelling
+      title: Modelling
+      sections:
+      - file: polar/modelling/polar-modelling-icenet
+        title: Sea ice forecasting (IceNet)
+  - file: urban/urban-overview
+    title: Urban
+    sections:
+    - file: urban/urban-sensors
+      title: Sensors
+      sections:
+      - file: urban/sensors/urban-sensors-ukv
+        title: UKV high-resolution (Met Office)
+    - file: urban/urban-modelling
+      title: Modelling
+  - file: wildfires/wildfires-overview
+    title: Wildfires
+    sections:
+    - file: wildfires/wildfires-sensors
+      title: Sensors
+      sections:
+      - file: wildfires/sensors/wildfires-sensors-modis
+        title: MOD021KM and FIRMS (NASA)
+    - file: wildfires/wildfires-modelling
+      title: Modelling
+- caption: Community
+  chapters:
+  - file: community/coworking
+    title: Coworking Calls
+    sections:
+    - file: community/coworking/coworking-motivation
+      title: Background, Motivations, and Techniques
+    - file: community/coworking/coworking-collabcafe
+      title: Online Collaboration Cafe
+  - file: community/notes
+    title: Meeting Notes
+    sections:
+    - file: community/notes/notes-collabcafe
+      title: Online Collaboration Cafe
+    - file: community/notes/notes-journalclub
+      title: Online Journal Club
+  - file: community/templates
+    title: Template Collection
+    sections:
+    - file: community/templates/template-coworking-collabcafe
+      title: Online Collaboration Cafe
+    - file: community/templates/template-coworking-journalclub
+      title: Online Journal Club
+    - file: community/templates/template-environments-sensors
+      title: Environments Use Case Sensors
+    - file: community/templates/template-environments-modelling
+      title: Environments Use Case Modelling
+  - file: community/readings
+    title: Interesting readings
+- caption: Afterword
+  chapters:
+  - file: afterword/glossary
+  - file: afterword/bibliography
+  - file: afterword/statistics
